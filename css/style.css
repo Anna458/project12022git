@@ -1,0 +1,308 @@
+:root {
+    --black-bkg: #222222;
+    --pink-bkg: #F1E4E6;
+    --pink-color: #f18b99;
+    --sales-bkg: #4e4544;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: var(--black-bkg);
+}
+
+.header__wrp {
+    display: flex;
+    align-items: center;
+    min-height: 75px;
+    justify-content: space-between;
+}
+
+.header__nav {
+    display: none;
+}
+
+.header__menu-list {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    
+}
+
+.header__burger {
+    border: none;
+}
+
+.header__logo {
+    margin: 0 41px 0 0;
+}
+
+.header__link {
+    margin: 0 0 0 33px;
+}
+
+/*ТЕЛО СТРАНИЦЫ*/
+
+.brand {
+    display: flex;
+    background-color: var(--pink-bkg);
+}
+
+.brand__title-wrp {
+    flex-grow: 1;
+    background-color: var(--pink-bkg);
+    padding: 0 0 0 92px;
+    display: flex;
+    align-items: center;
+}
+
+.brand__img {
+    width: 800px;
+    height: 765px;
+}
+
+.brand__title {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+.btand__title-lower {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    display: block;
+}
+
+.brand__title-pink {
+    color: var(--pink-color)
+}
+
+.sales__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 65px;
+
+}
+
+.sales__item {
+    height: 260px;
+    width: 360px;
+    background-color: var(--sales-bkg);
+    text-align: center;
+}
+
+.sales__item--women {
+    background-image: url(../img/for-women.jpg);
+}
+
+.sales__item--men {
+    background-image: url(../img/for-man.jpg);
+}
+
+.sales__item--kids {
+    background-image: url(../img/for-kids.jpg);
+}
+
+.sales__item--shoes {
+    background-image: url(../img/accessories.jpg);
+    width: 100%;
+    margin-top: 30px;
+}
+
+.sales__item-text {
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 130px;
+    color: #FFFFFF;
+}
+
+.sales__title {
+    font-size: 24px;
+    color: var(--pink-color);
+}
+
+.products {
+    padding-top: 96px;
+}
+
+.products__title {
+    text-transform: capitalize;
+    font-size: 30px;
+    color: rgba(34, 34, 34, 1);
+    text-align: center;
+    line-height: 36px;
+}
+
+.products__sub-title {
+    text-align: center;
+    font-size: 14px;
+    color: #9F9F9F;
+    line-height: 17px;
+}
+
+.products__list {
+    padding-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products__item {
+    width: 360px;
+    padding: 0 0 15px 15px;
+    background: #F8F8F8;
+}
+
+.products__item-title {
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    padding-top: 25px;
+    padding-left: 18px;
+}
+
+.products__item-text {
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    width: 315px;
+    padding-top: 13px;
+    padding-left: 16.47px;
+}
+
+.products__item-price {
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    padding-top: 18px;
+    padding-left: 18px;
+}
+
+.advantages {
+    background-color: #222224;
+    height: 341px;
+    margin-top: 191px;
+}
+
+.advantages__list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.advantages__list--item {
+    align-items: center;
+    text-align: center;
+    padding: 103px 104px 0 0;
+    width: 360px;
+}
+
+.advantages__title {
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+    padding-top: 28px;
+}
+
+.advantages__text {
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
+    font-style: normal;
+    padding-top: 16px
+}
+
+.comment {
+    background-image: url(../img/footer.jpg);
+    height: 448px;
+}
+
+.container-vestibulum-subscribe {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: center;
+    padding-top: 97px;
+}
+
+.vestibulum {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    width: 360px;
+}
+
+
+
+.comment__text {
+    padding-top: 30px;
+}
+
+.comment__text__sub {
+    font-size: 18px;
+    line-height: 167.2%;
+    text-align: center;
+    color: #222224;
+    text-transform: uppercase;
+}
+
+.subscribe-sub {
+    font-size: 24px;
+    line-height: 167.2%;
+    color: var(--pink-color);
+}
+
+.comment__text-women {
+    font-style: italic;
+}
+
+.subscribe {
+    width: 557px;
+}
+
+/*ПОДВАЛЬЧИК*/
+
+.footer {
+    background-color: var(--black-bkg);
+
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 79px;
+}
+
+.footer__license__text {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+    text-transform: capitalize;
+}
