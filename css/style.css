@@ -393,3 +393,55 @@ body {
     width: 20%;
     position: static;
 }
+
+/*кнопка*/
+
+.subscribe__email {
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    width: 256px;
+    height: 49px;
+    background: #E1E1E1;
+    border: none;
+    border-radius: 15px 0 0 15px;
+    padding-left: 22px;
+}
+
+.subscribe-form {
+    width: 356px;
+    height: 49px;
+    display: flex;
+    padding-left: 100px;
+    padding-top: 32px;
+}
+
+.subscribe-button {
+    background-color: var(--pink-color);
+    border: none;
+    width: 100px;
+    height: 49px;
+    border-radius: 0 15px 15px 0;
+    color: white;
+}
+
+.subscribe-button:hover {
+    background-color: rgb(230, 97, 119);
+}
+
+.subscribe-button:active {
+    background-color: rgb(214, 55, 81);
+}
+
+.subscribe-button:focus {
+    font-size: 16px;
+}
+
+input:active {
+    color:rgb(214, 55, 81)
+}
+
+input:focus {
+    background-color: #ccbbc9;
+}
